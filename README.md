@@ -18,17 +18,17 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 <!-- githup:start -->
 <!-- This table is written by GitHup (https://github.com/StuxGroup/GitHup); edits here are overwritten. -->
 
-**No data yet** · [Live status page](https://status.stux.dev/)
+**Partial outage** · [Live status page](https://status.stux.dev/)
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-|  | [Stux.Dev](https://stux.dev/) | No data | n/a | n/a | n/a | n/a |
-|  | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | No data | n/a | n/a | n/a | n/a |
-| Services | [Stuxs.Tools](https://stuxs.tools/) | No data | n/a | n/a | n/a | n/a |
-| Services | [Downl.one](https://downl.one/) | No data | n/a | n/a | n/a | n/a |
-| Services | [Sm.lol](https://sm.lol/) | No data | n/a | n/a | n/a | n/a |
-| Labs | [Stux.Dev Labs](https://labs.stux.dev/) | No data | n/a | n/a | n/a | n/a |
-| Labs | [AutoScroll](https://autoscroll.stux.dev/) | No data | n/a | n/a | n/a | n/a |
+|  | [Stux.Dev](https://stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 654 ms |
+|  | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 563 ms |
+| Services | [Stuxs.Tools](https://stuxs.tools/) | **Down** | 0.00% | 0.00% | 0.00% | n/a |
+| Services | [Downl.one](https://downl.one/) | **Down** | 0.00% | 0.00% | 0.00% | n/a |
+| Services | [Sm.lol](https://sm.lol/) | Up | 100.00% | 100.00% | 100.00% | 476 ms |
+| Labs | [Stux.Dev Labs](https://labs.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 817 ms |
+| Labs | [AutoScroll](https://autoscroll.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 599 ms |
 <!-- githup:end -->
 
 ## What's monitored
