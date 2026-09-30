@@ -16,6 +16,19 @@
 Updated by GitHup whenever the status page is rebuilt (hourly, and when a status changes).
 
 <!-- githup:start -->
+<!-- This table is written by GitHup (https://github.com/StuxGroup/GitHup); edits here are overwritten. -->
+
+**No data yet** · [Live status page](https://status.stux.dev/)
+
+| Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
+| ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
+|  | [Stux.Dev](https://stux.dev/) | No data | n/a | n/a | n/a | n/a |
+|  | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | No data | n/a | n/a | n/a | n/a |
+| Services | [Stuxs.Tools](https://stuxs.tools/) | No data | n/a | n/a | n/a | n/a |
+| Services | [Downl.one](https://downl.one/) | No data | n/a | n/a | n/a | n/a |
+| Services | [Sm.lol](https://sm.lol/) | No data | n/a | n/a | n/a | n/a |
+| Labs | [Stux.Dev Labs](https://labs.stux.dev/) | No data | n/a | n/a | n/a | n/a |
+| Labs | [AutoScroll](https://autoscroll.stux.dev/) | No data | n/a | n/a | n/a | n/a |
 <!-- githup:end -->
 
 ## What's monitored
