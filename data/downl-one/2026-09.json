@@ -1,3 +1,4 @@
 {"monitor":"downl-one","month":"2026-09","fields":["t","status","code","ms"],"checks":[
-[1790782121,"down",526,373]
+[1790782121,"down",526,373],
+[1790799246,"down",526,163]
 ]}
