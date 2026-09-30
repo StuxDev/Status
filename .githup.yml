@@ -1,0 +1,60 @@
+# Stux.Dev Status: https://status.stux.dev
+# Checked every 5 minutes by .github/workflows/status.yml, using GitHup:
+# https://github.com/StuxGroup/GitHup
+site:
+  name: Stux.Dev Status
+  description: Live status of Stux.Dev's website, services and Labs, checked every 5 minutes.
+  logo: https://global.media.stux.dev/icon.png
+  favicon: https://global.media.stux.dev/icon.png
+  accent: "#fd6602"
+  legal: https://status.stux.dev/legal/
+  # The footer's first link: this repo's version (from VERSION.md), pointing at the changelogs.
+  changelog: https://status.stux.dev/changelogs/
+  footer_links:
+    - label: Stux.Dev
+      url: https://stux.dev/
+    - label: Report a problem
+      url: https://github.com/StuxDev/Status/issues/new
+
+defaults:
+  timeout: 15
+  retries: 2
+  max_response_time: 3000
+
+# Ungrouped monitors are listed first.
+monitors:
+  - name: Stux.Dev
+    url: https://stux.dev/
+    description: The Stux.Dev website
+  - name: Stux.Dev Media CDN
+    url: https://global.media.stux.dev/icon.png
+    description: Shared logos and images used across every Stux.Dev site
+
+# Monitors are grouped into sections on the page, each with a combined status.
+# Slugs come from the names, so moving a monitor between groups keeps its history.
+groups:
+  - name: Services
+    description: Stux.Dev's free tools. No ads, no accounts, no trackers.
+    monitors:
+      - name: Stuxs.Tools
+        url: https://stuxs.tools/
+        description: Free web tools for everyone
+      - name: Downl.one
+        url: https://downl.one/
+        description: Download anything, no signup
+      - name: Sm.lol
+        url: https://sm.lol/
+        description: Short links, bio pages, QR codes and more
+
+  - name: Labs
+    description: Smaller, experimental projects from Stux.Dev Labs.
+    monitors:
+      - name: Stux.Dev Labs
+        url: https://labs.stux.dev/
+        description: The registry of every Labs experiment
+      - name: AutoScroll
+        url: https://autoscroll.stux.dev/
+        description: A clean, auto-scrolling image gallery for Reddit
+
+incidents:
+  labels: [status]
