@@ -3,6 +3,12 @@
 All notable changes to Stux.Dev's status page (status.stux.dev) are documented here. It
 follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.2.5
+
+### Changed
+
+- `max_response_time` raised to 15 seconds (GitHup's new default), so a slow but working site is no longer shown as degraded
+
 ## v1.2.4
 
 ### Fixed
