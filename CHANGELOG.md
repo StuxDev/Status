@@ -3,6 +3,12 @@
 All notable changes to Stux.Dev's status page (status.stux.dev) are documented here. It
 follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.2.1
+
+### Added
+
+- A copyright line in the footer (Copyright © START–CURRENT HOLDER), from the new `site.copyright` setting in `.githup.yml`; it needs GitHup 1.7.0 or later
+
 ## v1.2.0
 
 ### Added
