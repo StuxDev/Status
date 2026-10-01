@@ -13,9 +13,6 @@ site:
       url: https://stux.dev/
     - label: Report a problem
       url: https://github.com/StuxDev/Status/issues/new
-  copyright:
-    holder: Stux.Dev
-    start: 2026
 
 legal:
   operator: Stux.Dev

@@ -3,6 +3,13 @@
 All notable changes to Stux.Dev's status page (status.stux.dev) are documented here. It
 follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## v1.2.2
+
+### Removed
+
+- The copyright line in the status page footer: `site.copyright` is no longer set, as status pages don't need one
+
 ## v1.2.1
 
 ### Added
