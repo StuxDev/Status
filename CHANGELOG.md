@@ -3,6 +3,11 @@
 All notable changes to Stux.Dev's status page (status.stux.dev) are documented here. It
 follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.2.4
+
+### Fixed
+
+- A double blank line in `CHANGELOG.md`, and the README status table's empty Group cells (regenerated with GitHup v1.8.1), so the Markdown files pass markdownlint
 
 ## v1.2.3
 

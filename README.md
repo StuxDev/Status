@@ -22,8 +22,8 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-|  | [Stux.Dev](https://stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 523 ms |
-|  | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 462 ms |
+| | [Stux.Dev](https://stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 523 ms |
+| | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 462 ms |
 | Services | [Stuxs.Tools](https://stuxs.tools/) | **Down** | 0.00% | 0.00% | 0.00% | n/a |
 | Services | [Downl.one](https://downl.one/) | **Down** | 0.00% | 0.00% | 0.00% | n/a |
 | Services | [Sm.lol](https://sm.lol/) | Up | 100.00% | 100.00% | 100.00% | 389 ms |
