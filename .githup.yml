@@ -7,14 +7,19 @@ site:
   logo: https://global.media.stux.dev/icon.png
   favicon: https://global.media.stux.dev/icon.png
   accent: "#fd6602"
-  legal: https://status.stux.dev/legal/
-  # The footer's first link: this repo's version (from VERSION.md), pointing at the changelogs.
-  changelog: https://status.stux.dev/changelogs/
+  url: https://status.stux.dev/
   footer_links:
     - label: Stux.Dev
       url: https://stux.dev/
     - label: Report a problem
       url: https://github.com/StuxDev/Status/issues/new
+
+legal:
+  operator: Stux.Dev
+  company: "Stux.Dev is operated by Stux Group Ltd, a company registered in England and Wales (company no. 13160574), registered office 82a James Carter Road, Mildenhall, England, IP28 7DE."
+  contact: legal@stux.dev
+  host: GitHub Pages
+  effective: 30 September 2026
 
 defaults:
   timeout: 15
