@@ -1,3 +1,4 @@
 {"monitor":"stuxs-tools","month":"2026-10","fields":["t","status","code","ms"],"checks":[
-[1790814601,"down",0,354]
+[1790814601,"down",0,354],
+[1790823038,"down",0,189]
 ]}
