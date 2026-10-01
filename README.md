@@ -22,13 +22,13 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-|  | [Stux.Dev](https://stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 550 ms |
-|  | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 546 ms |
+|  | [Stux.Dev](https://stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 560 ms |
+|  | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 496 ms |
 | Services | [Stuxs.Tools](https://stuxs.tools/) | **Down** | 0.00% | 0.00% | 0.00% | n/a |
 | Services | [Downl.one](https://downl.one/) | **Down** | 0.00% | 0.00% | 0.00% | n/a |
-| Services | [Sm.lol](https://sm.lol/) | Up | 100.00% | 100.00% | 100.00% | 478 ms |
-| Labs | [Stux.Dev Labs](https://labs.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 823 ms |
-| Labs | [AutoScroll](https://autoscroll.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 805 ms |
+| Services | [Sm.lol](https://sm.lol/) | Up | 100.00% | 100.00% | 100.00% | 428 ms |
+| Labs | [Stux.Dev Labs](https://labs.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 750 ms |
+| Labs | [AutoScroll](https://autoscroll.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 818 ms |
 <!-- githup:end -->
 
 ## What's monitored
