@@ -44,8 +44,9 @@ groups:
       - name: Stuxs.Tools
         url: https://stuxs.tools/
         description: Free web tools for everyone
+      # The app's health check: 200 when yt-dlp, storage and PHP are all OK, 503 when one fails.
       - name: Downl.one
-        url: https://downl.one/
+        url: https://downl.one/api/health.php
         description: Download anything, no signup
       - name: Sm.lol
         url: https://sm.lol/

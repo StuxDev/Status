@@ -3,6 +3,12 @@
 All notable changes to Stux.Dev's status page (status.stux.dev) are documented here. It
 follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.2.7
+
+### Changed
+
+- The Downl.one monitor checks the app's health endpoint (`/api/health.php`, which fails when yt-dlp, storage or PHP break) instead of the home page; Downl.one now runs on down1
+
 ## v1.2.6
 
 ### Added
