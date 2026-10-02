@@ -25,7 +25,7 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 | | [Stux.Dev](https://stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 1126 ms |
 | | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 321 ms |
 | Services | [Stuxs.Tools](https://stuxs.tools/) | Up | 93.54% | 72.50% | 72.50% | 2336 ms |
-| Services | [Downl.one](https://downl.one/) | Up | 3.22% | 2.50% | 2.50% | 227 ms |
+| Services | [Downl.one](https://downl.one/api/health.php) | Up | 3.22% | 2.50% | 2.50% | 227 ms |
 | Services | [Sm.lol](https://sm.lol/) | Up | 90.32% | 92.50% | 92.50% | 377 ms |
 | Services | [Sm.lol Certificates](https://tiny1.servers.uk.stux.cloud/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 486 ms |
 | Labs | [Stux.Dev Labs](https://labs.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 1310 ms |
