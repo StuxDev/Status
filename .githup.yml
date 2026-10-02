@@ -50,6 +50,11 @@ groups:
       - name: Sm.lol
         url: https://sm.lol/
         description: Short links, bio pages, QR codes and more
+      # tiny1 (Sm.lol's server) writes this file daily while every certificate it uses has more
+      # than 21 days left, and removes it when one doesn't (/usr/local/sbin/cert-expiry-check).
+      - name: Sm.lol Certificates
+        url: https://tiny1.servers.uk.stux.cloud/certificates-ok.txt
+        description: Every certificate on Sm.lol's server has more than 21 days left
 
   - name: Labs
     description: Smaller, experimental projects from Stux.Dev Labs.

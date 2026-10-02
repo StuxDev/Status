@@ -3,6 +3,12 @@
 All notable changes to Stux.Dev's status page (status.stux.dev) are documented here. It
 follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.2.6
+
+### Added
+
+- A "Sm.lol Certificates" monitor: tiny1, Sm.lol's server, checks daily that every certificate it uses (Let's Encrypt and Sm.lol's Cloudflare Origin Certificate) has more than 21 days left and publishes `certificates-ok.txt` while they do, so an expiring certificate shows as down and opens an incident Issue
+
 ## v1.2.5
 
 ### Changed

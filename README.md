@@ -36,7 +36,7 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times, 5 minutes apart, to fill the gap), GitHup checks each monitor in [`.githup.yml`](.githup.yml):
 
 - **Stux.Dev** and the **Stux.Dev media CDN**, at the top of the page
-- **Services:** Stuxs.Tools, Downl.one and Sm.lol
+- **Services:** Stuxs.Tools, Downl.one and Sm.lol, plus the certificates on Sm.lol's server (tiny1)
 - **Labs:** Stux.Dev Labs and AutoScroll
 
 To add a service, add a monitor to the right group there (or a new group).
