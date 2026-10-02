@@ -1,3 +1,4 @@
 {"monitor":"sm-lol-certificates","month":"2026-10","fields":["t","status","code","ms"],"checks":[
-[1790943968,"up",200,489]
+[1790943968,"up",200,489],
+[1790944268,"up",200,477]
 ]}
