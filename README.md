@@ -18,18 +18,18 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 <!-- githup:start -->
 <!-- This table is written by GitHup (https://github.com/StuxGroup/GitHup); edits here are overwritten. -->
 
-**Partial outage** · [Live status page](https://status.stux.dev/)
+**All systems operational** · [Live status page](https://status.stux.dev/)
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
 | | [Stux.Dev](https://stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 418 ms |
-| | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 278 ms |
-| Services | [Stuxs.Tools](https://stuxs.tools/) | Up | 100.00% | 90.98% | 90.98% | 594 ms |
-| Services | [Downl.one](https://downl.one/api/health.php) | Up | 100.00% | 68.03% | 68.03% | 1634 ms |
-| Services | [Sm.lol](https://sm.lol/) | **Down** | 80.48% | 86.06% | 86.06% | 334 ms |
-| Services | [Sm.lol Certificates](https://tiny1.servers.uk.stux.cloud/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 419 ms |
+| | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 274 ms |
+| Services | [Stuxs.Tools](https://stuxs.tools/) | Up | 100.00% | 91.26% | 91.26% | 590 ms |
+| Services | [Downl.one](https://downl.one/api/health.php) | Up | 100.00% | 69.04% | 69.04% | 1625 ms |
+| Services | [Sm.lol](https://sm.lol/) | Up | 82.22% | 86.50% | 86.50% | 335 ms |
+| Services | [Sm.lol Certificates](https://tiny1.servers.uk.stux.cloud/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 414 ms |
 | Labs | [Stux.Dev Labs](https://labs.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 595 ms |
-| Labs | [AutoScroll](https://autoscroll.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 576 ms |
+| Labs | [AutoScroll](https://autoscroll.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 563 ms |
 <!-- githup:end -->
 
 ## What's monitored
