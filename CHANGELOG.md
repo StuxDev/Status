@@ -3,6 +3,12 @@
 All notable changes to Stux.Dev's status page (status.stux.dev) are documented here. It
 follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.2.8
+
+### Changed
+
+- The tiny1 certificate check uses the server's new `stuxedo.net` name (`tiny1.servers.uk.stuxedo.net`) instead of `stux.cloud`; its name, slug and history are unchanged
+
 ## v1.2.7
 
 ### Changed
