@@ -22,14 +22,14 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| | [Stux.Dev](https://stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 371 ms |
-| | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 336 ms |
-| Services | [Stuxs.Tools](https://stuxs.tools/) | Up | 79.31% | 90.33% | 97.92% | 8484 ms |
-| Services | [Downl.one](https://downl.one/api/health.php) | Up | 100.00% | 100.00% | 100.00% | 1733 ms |
-| Services | [Sm.lol](https://sm.lol/) | Up | 86.20% | 90.75% | 89.04% | 482 ms |
+| | [Stux.Dev](https://stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 399 ms |
+| | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 315 ms |
+| Services | [Stuxs.Tools](https://stuxs.tools/) | Up | 82.14% | 89.74% | 97.82% | 7431 ms |
+| Services | [Downl.one](https://downl.one/api/health.php) | Up | 100.00% | 100.00% | 100.00% | 1726 ms |
+| Services | [Sm.lol](https://sm.lol/) | Up | 85.71% | 90.59% | 89.39% | 489 ms |
 | Services | [Sm.lol Certificates](https://tiny1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 99.91% | 487 ms |
-| Labs | [Stux.Dev Labs](https://labs.stux.dev/) | Up | 96.55% | 99.57% | 99.91% | 8245 ms |
-| Labs | [AutoScroll](https://autoscroll.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 797 ms |
+| Labs | [Stux.Dev Labs](https://labs.stux.dev/) | Up | 100.00% | 99.57% | 99.91% | 6969 ms |
+| Labs | [AutoScroll](https://autoscroll.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 776 ms |
 <!-- githup:end -->
 
 ## What's monitored
