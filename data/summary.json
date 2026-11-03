@@ -1,9 +1,9 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1793696137,
+ "updated": 1793717973,
  "name": "Stux.Dev Status",
- "status": "partial",
+ "status": "up",
  "monitors": [
   {
    "slug": "stux-dev",
@@ -11,8 +11,8 @@
    "url": "https://stux.dev/",
    "status": "up",
    "code": 200,
-   "ms": 342,
-   "checked_at": 1793696133,
+   "ms": 376,
+   "checked_at": 1793717967,
    "last_change": {
     "at": 1790782121,
     "from": null,
@@ -26,17 +26,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 414,
-    "7d": 556,
-    "30d": 496,
+    "24h": 422,
+    "7d": 564,
+    "30d": 497,
     "90d": 511,
     "all": 511
    },
    "totals": {
-    "checks": 1260,
-    "available": 1260,
-    "ms_sum": 643692,
-    "ms_n": 1260,
+    "checks": 1261,
+    "available": 1261,
+    "ms_sum": 644068,
+    "ms_n": 1261,
     "first": 1790782121
    },
    "incident": null
@@ -47,8 +47,8 @@
    "url": "https://global.media.stux.dev/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 247,
-   "checked_at": 1793696133,
+   "ms": 845,
+   "checked_at": 1793717967,
    "last_change": {
     "at": 1790782121,
     "from": null,
@@ -62,17 +62,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 346,
-    "7d": 316,
+    "24h": 375,
+    "7d": 320,
     "30d": 332,
     "90d": 330,
     "all": 330
    },
    "totals": {
-    "checks": 1260,
-    "available": 1260,
-    "ms_sum": 415445,
-    "ms_n": 1260,
+    "checks": 1261,
+    "available": 1261,
+    "ms_sum": 416290,
+    "ms_n": 1261,
     "first": 1790782121
    },
    "incident": null
@@ -81,41 +81,37 @@
    "slug": "stuxs-tools",
    "name": "Stuxs.Tools",
    "url": "https://stuxs.tools/",
-   "status": "down",
-   "code": 429,
-   "ms": 240,
-   "checked_at": 1793696133,
+   "status": "up",
+   "code": 200,
+   "ms": 1914,
+   "checked_at": 1793717967,
    "last_change": {
-    "at": 1793695833,
-    "from": "up",
-    "to": "down"
+    "at": 1793717967,
+    "from": "down",
+    "to": "up"
    },
    "uptime": {
-    "24h": 89.285,
-    "7d": 88.695,
-    "30d": 97.643,
-    "90d": 96.984,
-    "all": 96.984
+    "24h": 88.0,
+    "7d": 88.34,
+    "30d": 97.629,
+    "90d": 96.986,
+    "all": 96.986
    },
    "avg_ms": {
-    "24h": 2816,
-    "7d": 4596,
-    "30d": 1792,
-    "90d": 1739,
-    "all": 1739
+    "24h": 1456,
+    "7d": 4630,
+    "30d": 1800,
+    "90d": 1740,
+    "all": 1740
    },
    "totals": {
-    "checks": 1260,
-    "available": 1222,
-    "ms_sum": 2125508,
-    "ms_n": 1222,
+    "checks": 1261,
+    "available": 1223,
+    "ms_sum": 2127422,
+    "ms_n": 1223,
     "first": 1790782121
    },
-   "incident": {
-    "number": 105,
-    "url": "https://github.com/StuxDev/Status/issues/105",
-    "opened": 1793695833
-   }
+   "incident": null
   },
   {
    "slug": "downl-one",
@@ -123,8 +119,8 @@
    "url": "https://downl.one/api/health.php",
    "status": "up",
    "code": 200,
-   "ms": 2138,
-   "checked_at": 1793696133,
+   "ms": 1896,
+   "checked_at": 1793717967,
    "last_change": {
     "at": 1790947449,
     "from": "down",
@@ -134,21 +130,21 @@
     "24h": 100.0,
     "7d": 100.0,
     "30d": 100.0,
-    "90d": 96.904,
-    "all": 96.904
+    "90d": 96.907,
+    "all": 96.907
    },
    "avg_ms": {
-    "24h": 1828,
-    "7d": 1831,
-    "30d": 1784,
+    "24h": 1854,
+    "7d": 1832,
+    "30d": 1785,
     "90d": 1776,
     "all": 1776
    },
    "totals": {
-    "checks": 1260,
-    "available": 1221,
-    "ms_sum": 2168093,
-    "ms_n": 1221,
+    "checks": 1261,
+    "available": 1222,
+    "ms_sum": 2169989,
+    "ms_n": 1222,
     "first": 1790782121
    },
    "incident": null
@@ -157,41 +153,37 @@
    "slug": "sm-lol",
    "name": "Sm.lol",
    "url": "https://sm.lol/",
-   "status": "down",
-   "code": 403,
-   "ms": 216,
-   "checked_at": 1793696133,
+   "status": "up",
+   "code": 200,
+   "ms": 457,
+   "checked_at": 1793717967,
    "last_change": {
-    "at": 1793695833,
-    "from": "up",
-    "to": "down"
+    "at": 1793717967,
+    "from": "down",
+    "to": "up"
    },
    "uptime": {
-    "24h": 75.0,
-    "7d": 88.695,
-    "30d": 89.005,
-    "90d": 88.888,
-    "all": 88.888
+    "24h": 80.0,
+    "7d": 88.34,
+    "30d": 89.201,
+    "90d": 88.897,
+    "all": 88.897
    },
    "avg_ms": {
-    "24h": 438,
-    "7d": 576,
+    "24h": 454,
+    "7d": 582,
     "30d": 422,
     "90d": 415,
     "all": 415
    },
    "totals": {
-    "checks": 1260,
-    "available": 1120,
-    "ms_sum": 465223,
-    "ms_n": 1120,
+    "checks": 1261,
+    "available": 1121,
+    "ms_sum": 465680,
+    "ms_n": 1121,
     "first": 1790782121
    },
-   "incident": {
-    "number": 106,
-    "url": "https://github.com/StuxDev/Status/issues/106",
-    "opened": 1793695833
-   }
+   "incident": null
   },
   {
    "slug": "sm-lol-certificates",
@@ -199,8 +191,8 @@
    "url": "https://tiny1.servers.uk.stuxedo.net/certificates-ok.txt",
    "status": "up",
    "code": 200,
-   "ms": 387,
-   "checked_at": 1793696133,
+   "ms": 5604,
+   "checked_at": 1793717967,
    "last_change": {
     "at": 1792690371,
     "from": "down",
@@ -214,17 +206,17 @@
     "all": 99.918
    },
    "avg_ms": {
-    "24h": 487,
-    "7d": 453,
-    "30d": 464,
-    "90d": 462,
-    "all": 462
+    "24h": 689,
+    "7d": 478,
+    "30d": 469,
+    "90d": 467,
+    "all": 467
    },
    "totals": {
-    "checks": 1228,
-    "available": 1227,
-    "ms_sum": 567438,
-    "ms_n": 1227,
+    "checks": 1229,
+    "available": 1228,
+    "ms_sum": 573042,
+    "ms_n": 1228,
     "first": 1790943968
    },
    "incident": null
@@ -235,8 +227,8 @@
    "url": "https://labs.stux.dev/",
    "status": "up",
    "code": 200,
-   "ms": 1173,
-   "checked_at": 1793696133,
+   "ms": 1204,
+   "checked_at": 1793717967,
    "last_change": {
     "at": 1793561816,
     "from": "down",
@@ -244,23 +236,23 @@
    },
    "uptime": {
     "24h": 100.0,
-    "7d": 99.565,
+    "7d": 99.551,
     "30d": 99.912,
     "90d": 99.92,
     "all": 99.92
    },
    "avg_ms": {
-    "24h": 2214,
-    "7d": 4489,
-    "30d": 1567,
+    "24h": 879,
+    "7d": 4595,
+    "30d": 1573,
     "90d": 1503,
     "all": 1503
    },
    "totals": {
-    "checks": 1260,
-    "available": 1259,
-    "ms_sum": 1892185,
-    "ms_n": 1259,
+    "checks": 1261,
+    "available": 1260,
+    "ms_sum": 1893389,
+    "ms_n": 1260,
     "first": 1790782121
    },
    "incident": null
@@ -271,8 +263,8 @@
    "url": "https://autoscroll.stux.dev/",
    "status": "up",
    "code": 200,
-   "ms": 499,
-   "checked_at": 1793696133,
+   "ms": 1015,
+   "checked_at": 1793717967,
    "last_change": {
     "at": 1790782121,
     "from": null,
@@ -286,17 +278,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 732,
-    "7d": 669,
+    "24h": 756,
+    "7d": 673,
     "30d": 622,
     "90d": 621,
     "all": 621
    },
    "totals": {
-    "checks": 1260,
-    "available": 1260,
-    "ms_sum": 782358,
-    "ms_n": 1260,
+    "checks": 1261,
+    "available": 1261,
+    "ms_sum": 783373,
+    "ms_n": 1261,
     "first": 1790782121
    },
    "incident": null
