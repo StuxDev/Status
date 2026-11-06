@@ -5,6 +5,14 @@ follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.06
+
+### Changed
+
+- The page's logo and favicon are now its own badge icon, Stux.Dev Status (the Stux.Dev mark with a heartbeat badge),
+  served from services.stux.dev, instead of the plain Stux.Dev icon. The README's header shows the same icon and the
+  full name, Stux.Dev Status, as do the commit and dev-server scripts.
+
 ## v26.10.23
 
 ### Added

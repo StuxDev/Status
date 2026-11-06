@@ -4,8 +4,9 @@
 site:
   name: Stux.Dev Status
   description: Live status of Stux.Dev's website, services and Labs, checked every 5 minutes.
-  logo: https://global.media.stux.dev/icon.png
-  favicon: https://global.media.stux.dev/icon.png
+  # Its own badge icon (the Stux.Dev mark with a heartbeat badge), as on services.stux.dev.
+  logo: https://services.stux.dev/assets/img/services/stux-dev-status.png
+  favicon: https://services.stux.dev/assets/img/services/stux-dev-status.png
   accent: "#fd6602"
   url: https://status.stux.dev/
   footer_links:
