@@ -2,9 +2,9 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.dev/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.dev/logo-dark.png"><img src="https://global.media.stux.dev/logo-dark.png" height="80" alt="Stux.Dev Logo"></picture>
 </p>
 
-# Contributing to Status
+# Contributing to Stux.Dev Status
 
-Status is Stux.Dev's status page, [status.stux.dev](https://status.stux.dev), built with
+Stux.Dev Status is Stux.Dev's status page, [status.stux.dev](https://status.stux.dev), built with
 GitHup, [a Stux.Group Service](https://services.stux.group). To report an outage, open an
 Issue. Bugs or ideas for the status page software belong in
 [StuxGroup/GitHup](https://github.com/StuxGroup/GitHup/issues).
@@ -21,15 +21,14 @@ You need Python 3.11+ and nothing else.
 
 - **Monitors live in `.githup.yml`.** Its syntax is documented in the
   [GitHup docs](https://githup.stux.group/docs/). Only add services Stux.Dev runs.
-- **The status page itself is GitHup's.** Change how it looks or works in GitHup, not here.
-  `site/` only holds the `/legal` pages, `/changelogs` and `404.html`, which share
-  `site/assets/pages.css` and `pages.js`. Their header and footer are repeated in every page;
-  change them all together.
-- **Brand.** The Stux.Dev orange is `#fd6602` (the logo's colour). On light backgrounds links and
-  buttons use the darker `#be4c02` so text stays readable; both are tokens in `pages.css`.
-- **Legal pages.** Every page's footer links to **Boring Legal Stuff** at `/legal/`, which links
-  to Privacy Policy, Terms and Ethics, Cookies Policy, Imprint, Disclaimer and Opt-Out
-  Preferences. Keep them accurate.
+- **The whole site is GitHup's.** Change how it looks or works in GitHup, not here. The status
+  page, the legal pages, `404.html` and the sitemap are all generated from `.githup.yml`; nothing
+  in this repo is hand-made HTML.
+- **Brand.** The Stux.Dev orange, `#fd6602` (the logo's colour), is `site.accent` in `.githup.yml`.
+  The logo and favicon are the Stux.Dev Status badge icon, served from services.stux.dev.
+- **Legal pages.** GitHup builds the **Boring Legal Stuff** hub at `/legal/` (Privacy Policy, Terms
+  and Ethics, Cookies Policy, Imprint, Disclaimer and Opt-Out Preferences) from the `legal:`
+  section of `.githup.yml`. Keep those details accurate.
 - **Don't edit `data/` by hand.** It belongs to GitHup and the workflow.
 
 ## Versioning
