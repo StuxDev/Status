@@ -37,8 +37,10 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times, 5 minutes apart, to fill the gap), GitHup checks each monitor in [`.githup.yml`](.githup.yml):
 
 - **Stux.Dev** and the **Stux.Dev media CDN**, at the top of the page
+- **Stux.Dev:** the website, Stux.Dev Services and the media CDN
 - **Services:** Stuxs.Tools, Downl.one and Sm.lol, plus the certificates on Sm.lol's server (tiny1)
 - **Labs:** Stux.Dev Labs and AutoScroll
+- **Templates:** Stux.Dev Soonpage, Maintenancepage, Servicepage and GitHub Pages Redirect
 
 To add a service, add a monitor to the right group there (or a new group).
 
@@ -88,6 +90,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Versioning
 
 This project uses [Date Versioning](https://datevers.ing): each release is numbered by its UTC release date as `YY.MM.DD` (for example `26.10.23`), with `-1`, `-2`… for later releases the same day. See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
+
+Work happens on the `test` branch, and changes reach `main` only through a pull request from `test`. Release commits and tags are made on `test` (`git push origin test --tags`) and go live when that pull request is merged.
 
 ## License
 
