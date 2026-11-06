@@ -1,9 +1,18 @@
 # Changelog
 
-All notable changes to Stux.Dev's status page (status.stux.dev) are documented here. It
-follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+All notable changes to Stux.Dev Status (status.stux.dev) are documented here. Each release's sections come in this
+order: Added, Changed, Fixed, Removed, Security, Deprecated.
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
+
+## v26.11.06-1
+
+### Changed
+
+- CONTRIBUTING calls the page by its full name, Stux.Dev Status, and no longer describes a `site/` folder of hand-made
+  legal pages sharing `pages.css`: GitHup generates the legal pages, 404 and sitemap from `.githup.yml`, and the brand
+  colour is its `site.accent`.
+- This changelog's intro no longer says the project follows Semantic Versioning; it moved to Date Versioning at v26.10.23.
 
 ## v26.11.06
 
