@@ -32,6 +32,9 @@ monitors:
   - name: Stux.Dev
     url: https://stux.dev/
     description: The Stux.Dev website
+  - name: Stux.Dev Services
+    url: https://services.stux.dev/
+    description: The directory of every Stux.Dev service, tool and template
   - name: Stux.Dev Media CDN
     url: https://global.media.stux.dev/icon.png
     description: Shared logos and images used across every Stux.Dev site
@@ -67,6 +70,22 @@ groups:
       - name: AutoScroll
         url: https://autoscroll.stux.dev/
         description: A clean, auto-scrolling image gallery for Reddit
+
+  - name: Templates
+    description: The page templates and the GitHub Pages redirect, each with a live preview.
+    monitors:
+      - name: Stux.Dev Soonpage
+        url: https://soonpage.stux.dev/
+        description: The coming-soon page template
+      - name: Stux.Dev Maintenancepage
+        url: https://maintenancepage.stux.dev/
+        description: The maintenance page template
+      - name: Stux.Dev Servicepage
+        url: https://servicepage.stux.dev/
+        description: The placeholder page for services not set up yet
+      - name: Stux.Dev GitHub Pages Redirect
+        url: https://stuxdev.github.io/
+        description: Sends stuxdev.github.io to Stux.Dev's GitHub profile
 
 incidents:
   labels: [status]

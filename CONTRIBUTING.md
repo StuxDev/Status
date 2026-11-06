@@ -31,6 +31,12 @@ You need Python 3.11+ and nothing else.
   section of `.githup.yml`. Keep those details accurate.
 - **Don't edit `data/` by hand.** It belongs to GitHup and the workflow.
 
+## Branches
+
+- Work on `test`, or on a feature branch off it. Never push to `main`
+- Changes reach `main` only through a pull request from `test` into `main`, which needs CI to pass and is reviewed and merged by Leo
+- Merging into `main` puts a `.githup.yml` change live; the GitHup workflow only runs on `main`. It commits monitoring data to `main` every 5 minutes, so merge `origin/main` into `test` before you start. Release commits and tags are made on `test` (`git push origin test --tags`) and go live when the pull request is merged
+
 ## Versioning
 
 This project uses [Date Versioning](https://datevers.ing). To release:
@@ -39,3 +45,4 @@ This project uses [Date Versioning](https://datevers.ing). To release:
 2. Set `VERSION.md` to the same bare version (no `v`): today's **UTC** date as `YY.MM.DD`, or `YY.MM.DD-1`, `-2`… for later releases the same UTC day. Never a future date. Use UTC, not local time: just after midnight in the UK it is still the previous day in UTC.
 3. Run `bash tests/version.sh`.
 4. Run `./commit.sh` (or `commit.bat` on Windows). It checks the version, commits and tags `vYY.MM.DD`, and never pushes.
+5. Push `test` with its tags (`git push origin test --tags`) and open a pull request from `test` into `main`.
