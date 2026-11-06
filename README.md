@@ -22,14 +22,19 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| | [Stux.Dev](https://stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 397 ms |
-| | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 320 ms |
-| Services | [Stuxs.Tools](https://stuxs.tools/) | Up | 100.00% | 87.44% | 97.43% | 1008 ms |
-| Services | [Downl.one](https://downl.one/api/health.php) | Up | 100.00% | 100.00% | 100.00% | 1855 ms |
-| Services | [Sm.lol](https://sm.lol/) | Up | 100.00% | 90.23% | 89.22% | 372 ms |
-| Services | [Sm.lol Certificates](https://tiny1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 99.91% | 499 ms |
-| Labs | [Stux.Dev Labs](https://labs.stux.dev/) | Up | 100.00% | 99.53% | 99.91% | 778 ms |
-| Labs | [AutoScroll](https://autoscroll.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 610 ms |
+| | [Stux.Dev](https://stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 408 ms |
+| | [Stux.Dev Services](https://services.stux.dev/) | No data | n/a | n/a | n/a | n/a |
+| | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 314 ms |
+| Services | [Stuxs.Tools](https://stuxs.tools/) | Up | 100.00% | 87.67% | 97.44% | 990 ms |
+| Services | [Downl.one](https://downl.one/api/health.php) | Up | 100.00% | 100.00% | 100.00% | 1865 ms |
+| Services | [Sm.lol](https://sm.lol/) | Up | 100.00% | 90.41% | 89.26% | 380 ms |
+| Services | [Sm.lol Certificates](https://tiny1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 99.91% | 504 ms |
+| Labs | [Stux.Dev Labs](https://labs.stux.dev/) | Up | 100.00% | 99.54% | 99.91% | 782 ms |
+| Labs | [AutoScroll](https://autoscroll.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 584 ms |
+| Templates | [Stux.Dev Soonpage](https://soonpage.stux.dev/) | No data | n/a | n/a | n/a | n/a |
+| Templates | [Stux.Dev Maintenancepage](https://maintenancepage.stux.dev/) | No data | n/a | n/a | n/a | n/a |
+| Templates | [Stux.Dev Servicepage](https://servicepage.stux.dev/) | No data | n/a | n/a | n/a | n/a |
+| Templates | [Stux.Dev GitHub Pages Redirect](https://stuxdev.github.io/) | No data | n/a | n/a | n/a | n/a |
 <!-- githup:end -->
 
 ## What's monitored
