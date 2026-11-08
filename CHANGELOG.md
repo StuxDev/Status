@@ -5,6 +5,12 @@ order: Added, Changed, Fixed, Removed, Security, Deprecated.
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.08
+
+### Changed
+
+- The site description says the services are "checked regularly" instead of "checked every 5 minutes". GitHub runs the 5-minute schedule best-effort and often far less often, so the copy no longer promises 5 minutes; the status page shows the real check rhythm. The `.githup.yml` comment, the README and CONTRIBUTING say the same.
+
 ## v26.11.06-2
 
 ### Added
