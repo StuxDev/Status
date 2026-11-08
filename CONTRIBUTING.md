@@ -35,7 +35,7 @@ You need Python 3.11+ and nothing else.
 
 - Work on `test`, or on a feature branch off it. Never push to `main`
 - Changes reach `main` only through a pull request from `test` into `main`, which needs CI to pass and is reviewed and merged by Leo
-- Merging into `main` puts a `.githup.yml` change live; the GitHup workflow only runs on `main`. It commits monitoring data to `main` every 5 minutes, so merge `origin/main` into `test` before you start. Release commits and tags are made on `test` (`git push origin test --tags`) and go live when the pull request is merged
+- Merging into `main` puts a `.githup.yml` change live; the GitHup workflow only runs on `main`. It commits monitoring data to `main` regularly, so merge `origin/main` into `test` before you start. Release commits and tags are made on `test` (`git push origin test --tags`) and go live when the pull request is merged
 
 ## Versioning
 
