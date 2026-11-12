@@ -22,19 +22,19 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| | [Stux.Dev](https://stux.dev/) | Up | 96.15% | 99.52% | 99.91% | 447 ms |
-| | [Stux.Dev Services](https://services.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 241 ms |
-| | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 340 ms |
-| Services | [Stuxs.Tools](https://stuxs.tools/) | Up | 96.15% | 99.52% | 97.31% | 783 ms |
-| Services | [Downl.one](https://downl.one/api/health.php) | Up | 100.00% | 100.00% | 100.00% | 1748 ms |
-| Services | [Sm.lol](https://sm.lol/) | Up | 100.00% | 100.00% | 91.12% | 381 ms |
-| Services | [Sm.lol Certificates](https://tiny1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 99.91% | 470 ms |
-| Labs | [Stux.Dev Labs](https://labs.stux.dev/) | Up | 96.15% | 99.52% | 99.82% | 738 ms |
-| Labs | [AutoScroll](https://autoscroll.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 524 ms |
-| Templates | [Stux.Dev Soonpage](https://soonpage.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 174 ms |
-| Templates | [Stux.Dev Maintenancepage](https://maintenancepage.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 169 ms |
-| Templates | [Stux.Dev Servicepage](https://servicepage.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 169 ms |
-| Templates | [Stux.Dev GitHub Pages Redirect](https://stuxdev.github.io/) | Up | 100.00% | 100.00% | 100.00% | 108 ms |
+| | [Stux.Dev](https://stux.dev/) | Up | 96.55% | 99.51% | 99.91% | 430 ms |
+| | [Stux.Dev Services](https://services.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 246 ms |
+| | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 333 ms |
+| Services | [Stuxs.Tools](https://stuxs.tools/) | Up | 96.55% | 99.51% | 97.31% | 778 ms |
+| Services | [Downl.one](https://downl.one/api/health.php) | Up | 100.00% | 100.00% | 100.00% | 1721 ms |
+| Services | [Sm.lol](https://sm.lol/) | Up | 100.00% | 100.00% | 91.12% | 379 ms |
+| Services | [Sm.lol Certificates](https://tiny1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 99.91% | 462 ms |
+| Labs | [Stux.Dev Labs](https://labs.stux.dev/) | Up | 96.55% | 99.51% | 99.82% | 703 ms |
+| Labs | [AutoScroll](https://autoscroll.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 517 ms |
+| Templates | [Stux.Dev Soonpage](https://soonpage.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 170 ms |
+| Templates | [Stux.Dev Maintenancepage](https://maintenancepage.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 174 ms |
+| Templates | [Stux.Dev Servicepage](https://servicepage.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 168 ms |
+| Templates | [Stux.Dev GitHub Pages Redirect](https://stuxdev.github.io/) | Up | 100.00% | 100.00% | 100.00% | 100 ms |
 <!-- githup:end -->
 
 ## What's monitored
