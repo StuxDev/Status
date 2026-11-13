@@ -5,6 +5,12 @@ order: Added, Changed, Fixed, Removed, Security, Deprecated.
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.13
+
+### Changed
+
+- The status page's Imprint (`legal.company` in `.githup.yml`) gives Stux Group Ltd's new registered office, 124 City Road, London, EC1V 2NX, England, United Kingdom, instead of 82a James Carter Road, Mildenhall, England, IP28 7DE. The company number (13160574) and "registered in England and Wales" are unchanged.
+
 ## v26.11.08
 
 ### Changed
