@@ -5,6 +5,12 @@ order: Added, Changed, Fixed, Removed, Security, Deprecated.
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.15-2
+
+### Changed
+
+- The comment on the workflow's every-5-minutes schedule now says what actually happens: it asks GitHub for a check every 5 minutes, but GitHub runs schedules best-effort and often less often (the status page measures about one check every 45 minutes). The schedule itself is unchanged.
+
 ## v26.11.15-1
 
 ### Changed
