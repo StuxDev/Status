@@ -14,7 +14,7 @@ Issue. Bugs or ideas for the status page software belong in
 You need Python 3.11+ and nothing else.
 
 ```bash
-./dev-server.sh [--no-dev-mode] [port]   # or dev-server.bat on Windows
+./dev-server.sh [--no-dev-mode] [--lan] [port]   # or dev-server.bat on Windows
 ```
 
 ## Project conventions
@@ -31,11 +31,13 @@ You need Python 3.11+ and nothing else.
   section of `.githup.yml`. Keep those details accurate.
 - **Don't edit `data/` by hand.** It belongs to GitHup and the workflow.
 
-## Branches
+## Branches and going live
 
-- Work on `test`, or on a feature branch off it. Never push to `main`
-- Changes reach `main` only through a pull request from `test` into `main`, which needs CI to pass and is reviewed and merged by Leo
-- Merging into `main` puts a `.githup.yml` change live; the GitHup workflow only runs on `main`. It commits monitoring data to `main` regularly, so merge `origin/main` into `test` before you start. Release commits and tags are made on `test` (`git push origin test --tags`) and go live when the pull request is merged
+- **`main` is what's live.** Nothing is pushed to it directly: it only changes when a pull request from `staging` is merged. Merging into `main` puts a `.githup.yml` change live; the GitHup workflow only runs on `main`.
+- **`staging` is the last check before live.** It only changes when a pull request from `test` is merged. CI runs on it, and nothing deploys from it.
+- **Work happens on `test`**, or on a feature branch off `test` that's merged back into it. Releases are made on `test` too; `commit.sh` / `commit.bat` refuse to run on `staging` or `main`.
+- **Going live:** push `test` with its tag (`git push origin test --tags`), open a pull request into staging (`gh pr create --base staging --head test`), check staging once it's merged, then open one from staging into main (`gh pr create --base main --head staging`). Both need CI to pass and are reviewed and merged by Leo.
+- GitHup's workflow commits monitoring data straight to `main` (the one exception to the rule above), so merge `origin/main` into `test` before you start; `staging` picks it up through the next pull request.
 
 ## Versioning
 
@@ -45,4 +47,4 @@ This project uses [Date Versioning](https://datevers.ing). To release:
 2. Set `VERSION.md` to the same bare version (no `v`): today's **UTC** date as `YY.MM.DD`, or `YY.MM.DD-1`, `-2`… for later releases the same UTC day. Never a future date. Use UTC, not local time: just after midnight in the UK it is still the previous day in UTC.
 3. Run `bash tests/version.sh`.
 4. Run `./commit.sh` (or `commit.bat` on Windows). It checks the version, commits and tags `vYY.MM.DD`, and never pushes.
-5. Push `test` with its tags (`git push origin test --tags`) and open a pull request from `test` into `main`.
+5. Push `test` with its tags (`git push origin test --tags`) and open a pull request into staging (`gh pr create --base staging --head test`). Once it's merged and staging is checked, open one from staging into main (`gh pr create --base main --head staging`).
