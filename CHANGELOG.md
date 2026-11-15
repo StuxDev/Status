@@ -5,6 +5,12 @@ order: Added, Changed, Fixed, Removed, Security, Deprecated.
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.15
+
+### Added
+
+- `dev-server.sh`/`.bat` take `--lan`, so the site can be opened from a phone or another device on the local network: it listens on all interfaces (`0.0.0.0`) instead of `127.0.0.1` only, and prints the addresses to open, one per IPv4 address (usually the `192.168.x.x` one). Without it the server stays on `127.0.0.1`. The README and CONTRIBUTING describe it.
+
 ## v26.11.13
 
 ### Changed
