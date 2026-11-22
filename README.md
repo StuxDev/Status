@@ -22,19 +22,19 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| | [Stux.Dev](https://stux.dev/) | Up | 100.00% | 99.47% | 99.79% | 947 ms |
-| | [Stux.Dev Services](https://services.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 160 ms |
-| | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 210 ms |
-| Services | [Stuxs.Tools](https://stuxs.tools/) | Up | 100.00% | 99.47% | 96.85% | 1228 ms |
-| Services | [Downl.one](https://downl.one/api/health.php) | Up | 100.00% | 100.00% | 100.00% | 1601 ms |
-| Services | [Sm.lol](https://sm.lol/) | Up | 100.00% | 100.00% | 94.65% | 273 ms |
-| Services | [Sm.lol Certificates](https://tiny1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 388 ms |
-| Labs | [Stux.Dev Labs](https://labs.stux.dev/) | Up | 100.00% | 99.47% | 99.68% | 979 ms |
-| Labs | [AutoScroll](https://autoscroll.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 316 ms |
+| | [Stux.Dev](https://stux.dev/) | Up | 100.00% | 99.47% | 99.78% | 860 ms |
+| | [Stux.Dev Services](https://services.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 161 ms |
+| | [Stux.Dev Media CDN](https://global.media.stux.dev/icon.png) | Up | 100.00% | 100.00% | 100.00% | 198 ms |
+| Services | [Stuxs.Tools](https://stuxs.tools/) | Up | 100.00% | 99.47% | 96.84% | 1194 ms |
+| Services | [Downl.one](https://downl.one/api/health.php) | Up | 100.00% | 100.00% | 100.00% | 1600 ms |
+| Services | [Sm.lol](https://sm.lol/) | Up | 100.00% | 100.00% | 94.73% | 258 ms |
+| Services | [Sm.lol Certificates](https://tiny1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 373 ms |
+| Labs | [Stux.Dev Labs](https://labs.stux.dev/) | Up | 100.00% | 99.47% | 99.68% | 953 ms |
+| Labs | [AutoScroll](https://autoscroll.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 323 ms |
 | Templates | [Stux.Dev Soonpage](https://soonpage.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 139 ms |
-| Templates | [Stux.Dev Maintenancepage](https://maintenancepage.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 146 ms |
-| Templates | [Stux.Dev Servicepage](https://servicepage.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 127 ms |
-| Templates | [Stux.Dev GitHub Pages Redirect](https://stuxdev.github.io/) | Up | 100.00% | 100.00% | 100.00% | 99 ms |
+| Templates | [Stux.Dev Maintenancepage](https://maintenancepage.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 130 ms |
+| Templates | [Stux.Dev Servicepage](https://servicepage.stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 133 ms |
+| Templates | [Stux.Dev GitHub Pages Redirect](https://stuxdev.github.io/) | Up | 100.00% | 100.00% | 100.00% | 100 ms |
 <!-- githup:end -->
 
 ## What's monitored
